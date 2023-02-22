@@ -16,6 +16,7 @@ a {
 img {
     max-width: 100%;
 }
+
 /* Header
 -------------------------------- */
 .logo {
@@ -48,6 +49,7 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
+
 /* Home
 -------------------------------- */
 .home-content {
@@ -87,4 +89,15 @@ img {
 }
 #home .page-title {
     text-transform: none;
+}
+
+/* News
+-------------------------------- */
+#news {
+    background-image: url(../images/news-bg.jpg);
+    height: 270px;
+    margin-bottom: 40px;
+}
+#news .page-title {
+    text-align: center;
 }
