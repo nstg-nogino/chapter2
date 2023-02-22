@@ -123,7 +123,8 @@ footer p {
 }
 /* メインエリア */
 article {
-    width: 74%;
+    width: 60%;
+    order: 2;
 }
 article img {
     margin-bottom: 20px;
@@ -167,6 +168,7 @@ article p {
 /* サイドバー */
 aside {
     width: 22%;
+    order: 3;
 }
 aside p{
     padding: 12px 10px;
@@ -191,6 +193,9 @@ aside p{
 }
 .sub-menu a:hover {
     color: #0bd;
+}
+.ad {
+    order: 1;
 }
 
 /* モバイル版
@@ -247,5 +252,8 @@ aside p{
     }
     .post-title, .post-cat {
         margin-left: 80px;
+    }
+    .ad {
+        order: 3;
     }
 }
