@@ -360,6 +360,7 @@ iframe {
         margin-left: 80px;
     }
     .ad {
+        width: 100%;
         order: 3;
     }
     /* Menu */
@@ -380,7 +381,7 @@ iframe {
 
     /* Form */
     input[type="text"],
-    input[type="text"],
+    input[type="email"],
     textarea {
         max-width: 100%;
     }
